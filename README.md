@@ -1,3 +1,9 @@
+# 🚨 Help Me Improve Our Datasets!
+
+I need your help! Please take a look at current datasets and add more data to improve my machine learning-powered disease prediction app. Your contributions can help make this tool more accurate and comprehensive.
+
+**Please fork this repository and send me PR at any time with any updates. Welcome to my repository. Thanks!** 🌟
+
 # HealthCare ChatBot
 
 A machine learning-powered chatbot for preliminary disease diagnosis based on user-reported symptoms. This interactive tool helps users identify potential health issues by guiding them through symptom selection and providing disease predictions, descriptions, and precautions.
