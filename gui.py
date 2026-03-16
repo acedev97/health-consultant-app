@@ -167,8 +167,6 @@ def predict_disease(symptoms):
 
 
 if __name__ == '__main__':
-    # Add a nice header image
-    st.image("https://img.icons8.com/color/96/000000/stethoscope.png", width=100)
     st.title("🩺 HealthCare ChatBot")
     st.write("Welcome to the HealthCare ChatBot!")
 
