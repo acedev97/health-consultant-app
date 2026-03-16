@@ -1,8 +1,10 @@
 # 🚨 Help Me Improve Our Datasets!
 
-I need your help! Please take a look at current datasets and add more data to improve my machine learning-powered disease prediction app. Your contributions can help make this tool more accurate and comprehensive.
+I'd really appreciate your help! 
+Please take a look at the current datasets and consider adding more data to improve my machine learning–based disease prediction app. 
+Your contribution could help make the tool more accurate and comprehensive.
 
-**Please fork this repository and send me PR at any time with any updates. Welcome to my repository. Thanks!** 🌟
+**🌟 Please fork this repository and send me PR at any time with any updates. Welcome to my repository. Thanks!** 🌟
 
 # HealthCare ChatBot
 
