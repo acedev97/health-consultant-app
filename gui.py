@@ -78,7 +78,7 @@ def getDescription():
       
 def getSeverityDict():
   global serverityDictionary
-  with open('MasterData/symptom_severity.csv') as csv_file:
+  with open('MasterData/Symptom_severity.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     try:
       for row in csv_reader:
