@@ -17,7 +17,7 @@ body_parts = {
     "stomach": ["stomach_pain", "acidity", "ulcers_on_tongue", "vomiting", "indigestion", "nausea", "loss_of_appetite", "abdominal_pain", "constipation", "diarrhoea", "pain_during_bowel_movements", "pain_in_anal_region", "bloody_stool", "irritation_in_anus", "passage_of_gases", "internal_itching", "belly_pain", "distention_of_abdomen", "stomach_bleeding", "swelling_of_stomach"],
     "skin": ["itching", "skin_rash", "nodal_skin_eruptions", "yellowish_skin", "dischromic _patches", "pus_filled_pimples", "blackheads", "scurring", "skin_peeling", "silver_like_dusting", "small_dents_in_nails", "inflammatory_nails", "blister", "red_sore_around_nose", "yellow_crust_ooze", "bruising", "puffy_face_and_eyes", "drying_and_tingling_lips", "red_spots_over_body"],
     "limbs": ["joint_pain", "weakness_in_limbs", "knee_pain", "hip_joint_pain", "muscle_weakness", "swelling_joints", "movement_stiffness", "swollen_legs", "swollen_blood_vessels", "swollen_extremeties", "cramps", "painful_walking", "prominent_veins_on_calf"],
-    "urinary": ["burning_micturition", "spotting_ urination", "bladder_discomfort", "foul_smell_of urine", "continuous_feel_of_urine"],
+    "urinary": ["burning_micturition", "spotting_urination", "bladder_discomfort", "foul_smell_of_urine", "continuous_feel_of_urine"],
     "general": ["continuous_sneezing", "shivering", "chills", "fatigue", "weight_gain", "anxiety", "cold_hands_and_feets", "mood_swings", "weight_loss", "restlessness", "lethargy", "irregular_sugar_level", "high_fever", "sunken_eyes", "sweating", "dehydration", "mild_fever", "acute_liver_failure", "swelled_lymph_nodes", "malaise", "toxic_look_(typhos)", "depression", "irritability", "muscle_pain", "altered_sensorium", "abnormal_menstruation", "watering_from_eyes", "increased_appetite", "polyuria", "family_history", "lack_of_concentration", "receiving_blood_transfusion", "receiving_unsterile_injections", "coma", "history_of_alcohol_consumption", "fluid_overload", "excessive_hunger", "extra_marital_contacts", "muscle_wasting", "dark_urine", "yellow_urine", "yellowing_of_eyes", "enlarged_thyroid", "brittle_nails", "obesity"]
 }
 
@@ -130,11 +130,6 @@ def sec_predict(symptoms_exp):
 def print_disease(node):
     disease = le.inverse_transform(node)
     return list(map(lambda x: x.strip(), list(disease)))
-
-
-def tree_to_code(tree, feature_names):
-    tree_ = tree.tree
-
 
 def predict_disease(symptoms):
   # Read in symptom severity, description, and precaution data
